@@ -9,7 +9,7 @@ begin
 	--fduyhfduyfd
 
 
-
+--Ekaitz, gracias por este cursillo, tkm
 
    Put_Line("Hello world!");
 
