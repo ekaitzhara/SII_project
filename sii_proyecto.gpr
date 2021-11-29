@@ -1,8 +1,8 @@
 project Sii_Proyecto is
 
-   for Source_Dirs use ("src");
+   for Source_Dirs use ("src/pruebas_main/", "src/paquetes/", "src");
    for Object_Dir use "obj";
-   for Main use ("main.adb");
+   for Main use ("main_samu.adb", "main_jonan.adb", "main_enara.adb", "main_ekaitz.adb", "main.adb");
 
    package Ide is
       for Vcs_Repository_Root use "";
