@@ -8,7 +8,6 @@ begin
       CMenu := Fc_Menu;
 
 
-
    case CMenu is
       when '1' =>
          Put("1");
