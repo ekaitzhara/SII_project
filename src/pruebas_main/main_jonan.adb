@@ -19,6 +19,7 @@ procedure main_jonan is
 
       Ada.Numerics.Float_Random.Reset(G_tension);
       --Ada.Numerics.Float_Random.Reset(G_salida);
+      
 
       valorTension_aux := Ada.Numerics.Float_Random.Random(G_tension);
       --valorSalidaAnterior_aux := Ada.Numerics.Float_Random.Random(G_salida);
