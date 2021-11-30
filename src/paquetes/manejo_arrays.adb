@@ -35,6 +35,10 @@ package body manejo_arrays is
    
    procedure remove(lista: in out G_lista) is
    begin
+      if (cont > 0) then
+         cont := cont - 1;
+      end if;
+      
       
    end remove;
    
