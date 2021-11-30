@@ -1,10 +1,8 @@
-generic
-   type G_lista is private;   -- Lista generica
-   type T is private;
+with tipos; use tipos;
 
 package manejo_arrays is
-
-   function makeArray return G_lista;
+  
+   type G_Lista is array (Natural range <>) of T;   
    
    procedure add(lista: in out G_lista, elem: T);
    

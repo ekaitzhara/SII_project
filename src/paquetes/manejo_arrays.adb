@@ -6,27 +6,22 @@ package body manejo_arrays is
    
    cont: Integer := 0;
 
-   
-   function makeArray return G_lista is
-      dim : Natural;
-   begin
-      New_Line;
-      Put_Line("Añade las dimension del array");
-      Get(dim);
-      
-      declare
-         New_Array : G_lista(1..dim);
-      begin
-         return New_Array;
-      end;
-   end makeArray;
-   
-   
-   
+  
    procedure add(lista: in out G_lista, elem: T) is
+   Aux: Integer:=0;
    begin 
       if (cont = lista'Length) then
-         lista(cont) := elem;
+         Cont:=5;
+         for I in Lista'Range loop
+            if Aux < 4 then 
+               Lista(Aux+1):=Lista(Lista'Length-Aux);
+            else 
+               Lista(Aux+1):=T'Null_Parameter;
+            end if;
+           
+            Aux:= Aux+1;
+         end loop;
+         Lista(Cont):=Elem;
       else
          cont := cont + 1;
          lista(cont) := elem;
@@ -40,10 +35,7 @@ package body manejo_arrays is
       if (cont > 0) then
          cont := cont - 1;
       end if;
-      
-      
+  
    end remove;
    
-   
-
 end manejo_arrays;
