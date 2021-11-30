@@ -3,6 +3,7 @@ with Ada.Integer_Text_IO;   use Ada.Integer_Text_IO;
 
 package body manejo_arrays is
    
+   
    cont: Integer := 0;
 
    
