@@ -4,6 +4,7 @@ procedure Main is
 CMenu: Character;
 begin
 
+
   Loop
    CMenu:= Fc_Menu;
    case CMenu is
@@ -23,6 +24,7 @@ begin
          exit;
       when others =>
          null;
+
 
       end case;
    end loop;
