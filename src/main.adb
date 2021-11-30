@@ -5,7 +5,8 @@ CMenu: Character;
 begin
 
   Loop
-		CMenu := Fc_Menu;
+      CMenu := Fc_Menu;
+
 
 
    case CMenu is
