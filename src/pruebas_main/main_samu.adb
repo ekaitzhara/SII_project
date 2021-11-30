@@ -11,6 +11,7 @@ procedure main_samu is
 	--abierto : Boolean; --Dice si un fichero está abierto
 	
 begin
+
 	--Abrir ficheros
 	Open (fichero1, Mode => In_File, Name => "C:\TEMP\original.txt");
 	Create (fichero2, Name => "C:\TEMP\copia.txt");
@@ -24,5 +25,7 @@ begin
 	--Cerrar ficheros
 	Close (fichero1);
 	Close (fichero2);
+
+   null;
 
 end main_samu;
