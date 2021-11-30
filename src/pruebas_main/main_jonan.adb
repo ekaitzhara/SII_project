@@ -9,6 +9,10 @@ procedure main_jonan is
    type T_tension is new Float range 0.0..5.0;
    package paqueteTension is new Ada.Text_IO.Float_IO(T_tension);
    use paqueteTension;
+   
+   type T_temperatura is new Float range 0.0..100.0;
+   package paqueteTemperatura is new Ada.Text_IO.Float_IO(T_temperatura);
+   use paqueteTemperatura;
 
    procedure pcGeneraTension (valorTension : out T_tension) is
 
@@ -28,11 +32,24 @@ procedure main_jonan is
    end pcGeneraTension;
    
    
+   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura) is
+      
+   begin
+      
+      valorTemperatura := T_temperatura(20.0*valorTension);
+      
+      Put_Line("La temperatura correspondiente es: " & T_temperatura'Image(valorTemperatura));
+      
+   end pcGeneraTemperatura;
+
+
    --Variables main Jonan
    num : T_tension;
+   temp : T_temperatura;
    
 begin
    
    pcGeneraTension(num);
+   pcGeneraTemperatura(num,temp);
    
 end main_jonan;
