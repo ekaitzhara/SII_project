@@ -36,9 +36,9 @@ procedure main_jonan is
       
    begin
       
-      valorTemperatura := 20.0 * valorTension;
+      valorTemperatura := T_temperatura(20.0*valorTension);
       
-      Put_Line("La temperatura correspondiente es. " & T_temperatura'Image(valorTemperatura));
+      Put_Line("La temperatura correspondiente es: " & T_temperatura'Image(valorTemperatura));
       
    end pcGeneraTemperatura;
 
