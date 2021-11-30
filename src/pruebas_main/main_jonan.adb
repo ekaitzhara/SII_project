@@ -17,20 +17,16 @@ procedure main_jonan is
 
    begin
 
-      Ada.Numerics.Float_Random.Reset(G_tension);
-      --Ada.Numerics.Float_Random.Reset(G_salida);
-      
+      Ada.Numerics.Float_Random.Reset(G_tension);      
 
       valorTension_aux := Ada.Numerics.Float_Random.Random(G_tension);
-      --valorSalidaAnterior_aux := Ada.Numerics.Float_Random.Random(G_salida);
 
       valorTension := 5.00 * T_tension(valorTension_aux);
-      --valorSalidaAnterior := 5.00 * T_tension(valorSalidaAnterior_aux);
 
-      --Put_Line("La acción de control generada: " & T_tension'Image(valorTension));
-      --Put_Line("La salida anterior: " & T_tension'Image(valorSalidaAnterior));
+      Put_Line("El valor de tensión generado es: " & T_tension'Image(valorTension));
 
    end pcGeneraTension;
+   
    
    --Variables main Jonan
    num : T_tension;
@@ -38,7 +34,5 @@ procedure main_jonan is
 begin
    
    pcGeneraTension(num);
-   
-   Put(num);
    
 end main_jonan;
