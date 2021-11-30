@@ -3,6 +3,7 @@
   <Project>
     <vfs_file />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <file_marker column=" 17" line=" 9" >
       <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
       <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\main.adb</vfs_file>
@@ -14,6 +15,22 @@
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
       <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.ads</vfs_file>
+=======
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 29" line=" 15" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file >D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\main.adb</vfs_file>
+>>>>>>> f581cec3a3d7446e7169b6ff0061f0550dd3bd2f
 =======
     <file_marker column=" 1" line=" 1" >
       <vfs_project />

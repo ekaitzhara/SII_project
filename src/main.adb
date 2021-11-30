@@ -1,12 +1,13 @@
 with Ada.Text_IO;   use Ada.Text_IO;
-
+with Utilidades; use Utilidades;
 procedure Main is
 CMenu: Character;
 begin
 
-
   Loop
-   CMenu:= Fc_Menu;
+		CMenu := Fc_Menu;
+
+
    case CMenu is
       when '1' =>
          Put("1");
@@ -24,8 +25,6 @@ begin
          exit;
       when others =>
          null;
-
-
       end case;
    end loop;
 

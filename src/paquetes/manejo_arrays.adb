@@ -21,6 +21,7 @@ package body manejo_arrays is
    end makeArray;
    
    
+   
    procedure add(lista: in out G_lista, elem: T) is
    begin 
       if (cont = lista'Length) then
