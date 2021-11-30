@@ -1,9 +1,8 @@
 with Ada.Text_IO;   use Ada.Text_IO;
-
+with Utilidades; use Utilidades;
 procedure Main is
 CMenu: Character;
 begin
-
 
   Loop
    CMenu:= Fc_Menu;
@@ -24,8 +23,6 @@ begin
          exit;
       when others =>
          null;
-
-
       end case;
    end loop;
 
