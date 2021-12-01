@@ -16,8 +16,11 @@ package manejo_arrays is
    
    function get(pos: Positive) return T;
    
-   procedure Mostrar_Array;
-   
+	procedure Mostrar_Array;
+	
+	procedure mediaTemperatura;
+	
+	procedure umbralTemperatura;
    
 private
    type G_lista is array(Index) of T;
