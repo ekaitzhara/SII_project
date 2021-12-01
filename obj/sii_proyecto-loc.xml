@@ -2,87 +2,108 @@
 <Locations >
   <Project>
     <vfs_file />
-<<<<<<< HEAD
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 11" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 55" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Downloads\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 7" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_enara.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 11" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_enara.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 14" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_enara.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\utilidades.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 51" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 68" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 51" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
-=======
     <file_marker column=" 0" line=" 0" >
       <vfs_project />
       <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\lowlevel_tests\test_simple_motors.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 0" line=" 0" >
+    <file_marker column=" 0" line=" 0" >
       <vfs_project />
       <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\Drivers\driver_pcm3712_ao_ehu.adb</vfs_file>
->>>>>>> 3b9e09b9ec7bf18790930687bdd0df1894b4c6e6
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 8" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\p_generico.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\p_generico.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\pruebas_main\main_ekaitz.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 50" line=" 10" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 6" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\pruebas_main\main_ekaitz.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 50" line=" 10" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 4" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\p_generico.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\pruebas_main\main_ekaitz.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\pruebas_main\main_ekaitz.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 12" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 50" line=" 10" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\pruebas_main\main_ekaitz.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 2" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 26" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\pruebas_main\main_ekaitz.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_file>
+    <file_marker column=" 0" line=" 0">
+      <vfs_project  />
+      <vfs_file >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\lowlevel_tests\test_simple_motors.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 0" line=" 0">
+      <vfs_project  />
+      <vfs_file >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\Drivers\driver_pcm3712_ao_ehu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 8">
+      <vfs_project >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file >C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

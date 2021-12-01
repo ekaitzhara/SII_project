@@ -5,9 +5,9 @@ package body manejo_arrays is
    
    
    cont: Integer := 0;
-
+   lista: G_lista;
   
-   procedure add(lista: in out G_lista, elem: T) is
+   procedure add(elem: T) is
    Aux: Integer:=0;
    begin 
       if (cont = lista'Length) then
@@ -16,7 +16,8 @@ package body manejo_arrays is
             if Aux < 4 then 
                Lista(Aux+1):=Lista(Lista'Length-Aux);
             else 
-               Lista(Aux+1):=T'Null_Parameter;
+               --Lista(Aux+1):=T'Null_Parameter;
+               Lista(Aux+1):=Default;  -- cuidado, hay que arreglarlo
             end if;
            
             Aux:= Aux+1;
@@ -30,12 +31,19 @@ package body manejo_arrays is
    end add;
    
    
-   procedure remove(lista: in out G_lista) is
+   procedure remove is
    begin
       if (cont > 0) then
          cont := cont - 1;
       end if;
   
    end remove;
+   
+   function get(pos: Positive) return T is
+   begin
+      return lista(pos);
+   end get;
+   
+   
    
 end manejo_arrays;
