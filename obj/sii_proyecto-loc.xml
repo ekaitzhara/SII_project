@@ -1,6 +1,116 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\ficheros.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 11" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 17" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 11" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 12" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\tipos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\tipos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 15" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\manejo_arrays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\manejo_arrays.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\manejo_arrays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 3" >
+      <vfs_project />
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 13" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 68" line=" 3" >
+      <vfs_project />
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 18" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 3" >
+      <vfs_project />
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 9" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 25" line=" 3" >
+      <vfs_project />
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
+=======
+<<<<<<< HEAD
+>>>>>>> 21880019b6387dff1a94d8995f7781f9611c8cd2
     <vfs_file />
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
@@ -157,6 +267,7 @@
     <file_marker column=" 1" line=" 1" >
       <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\utilidades.ads</vfs_file>
+<<<<<<< HEAD
     </file_marker>
     <file_marker column=" 1" line=" 20" >
       <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
@@ -285,6 +396,11 @@
     <file_marker current="true" column=" 1" line=" 1" >
       <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+=======
+>>>>>>> fc6c45b3f612a7dc91f360a351d8ae2eeb89f7d8
+>>>>>>> 97903007abe865d0c6ccae24f5207ddd8b2c64e2
+>>>>>>> 19b4936189fe7c2d7e7b651edb984f5c05f2b9c0
+>>>>>>> 21880019b6387dff1a94d8995f7781f9611c8cd2
     </file_marker>
   </Project>
 </Locations>
