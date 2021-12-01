@@ -3,6 +3,8 @@ with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 with Ada.Numerics.Float_Random;
 
+with maqueta; use maqueta;
+
 
 procedure main_jonan is
   
