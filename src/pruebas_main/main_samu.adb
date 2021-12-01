@@ -7,7 +7,7 @@ procedure main_samu is
 	
 	type a_temperatura is array (1 .. 25) of Float;
 	
-	procedure temperatura_media (lista :in a_temperatura; contador : in Integer) is
+	procedure mediaTemperatura (lista :in a_temperatura; contador : in Integer) is
 		suma : Float:=0.0;
 		media:Float:=0.0;
 	begin
@@ -22,7 +22,7 @@ procedure main_samu is
 		New_Line;
 	end temperatura_media;
 	
-	procedure umbral_temperatura (lista : in a_temperatura; contador : in Integer) is
+	procedure umbralTemperatura (lista : in a_temperatura; contador : in Integer) is
 		porcentaje : float;
 		cont_mayor : Integer := 0;
 		umbral:Float:=0.0;
@@ -86,7 +86,7 @@ begin
 		New_Line;
 		
 	end loop;
-	temperatura_media (matriz, contador);
-	umbral_temperatura (matriz, contador);
+	mediaTemperatura (matriz, contador);
+	umbralTemperatura (matriz, contador);
 			
 end main_samu;

@@ -1,12 +1,25 @@
-with tipos; use tipos;
+generic
+   Type T is private;
+   Size    : Positive;
+   Default : T;
 
 package manejo_arrays is
+   
+   SubType Index is Positive range 1..Size;
   
-   type G_Lista is array (Natural range <>) of T;   
+   --type G_Lista is array (Natural range <>) of T;   
    
-   procedure add(lista: in out G_lista, elem: T);
+   procedure add(elem: T);
    
-   procedure remove(lista: in out G_lista);
+   procedure remove;
    
+   function get(pos: Positive) return T;
+   
+   procedure Mostrar_Array;
+   
+   
+private
+   type G_lista is array(Index) of T;
+    
 
 end manejo_arrays;
