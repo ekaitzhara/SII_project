@@ -4,7 +4,12 @@ with Ada.Float_Text_IO;  use Ada.Float_Text_IO;
 
 procedure main_ekaitz is
    
-   package Array_Float is new manejo_arrays(T => Float, Size => 25, Default => Float'First);
+   --  function func_image return String is
+   --  begin
+   --     return Float'Image;
+   --  end func_image;
+   
+   package Array_Float is new manejo_arrays(T => Float, Size => 25, Default => Float'First, image => Float'Image);
    
 begin
    

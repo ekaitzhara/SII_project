@@ -2,6 +2,7 @@ generic
    Type T is private;
    Size    : Positive;
    Default : T;
+   with function image(Item : in T) return String;
 
 package manejo_arrays is
    

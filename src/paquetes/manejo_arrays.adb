@@ -1,5 +1,6 @@
 with Ada.Text_IO;  use Ada.Text_IO;
 with Ada.Integer_Text_IO;   use Ada.Integer_Text_IO;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 
 package body manejo_arrays is
    
@@ -45,10 +46,13 @@ package body manejo_arrays is
    
    
    procedure Mostrar_Array is
+      f : Float;
    begin
+      
       for I in Lista'Range loop
+         --f := Float'Value(lista(I));
          --  Put(Lista(I), AFT=>2, EXP=>0);  -- mirar como enseñar el array
-         Put(T'Image(lista(I)));
+         Put(image(lista(I)));
          Put(" , ");
          end loop;
    end Mostrar_Array;
