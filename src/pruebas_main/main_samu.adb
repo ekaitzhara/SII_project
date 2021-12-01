@@ -20,7 +20,7 @@ procedure main_samu is
 		Put ("La temperatura media es de: " );
 		Put(media, Aft => 2, Exp => 0);
 		New_Line;
-	end temperatura_media;
+	end mediaTemperatura;
 	
 	procedure umbralTemperatura (lista : in a_temperatura; contador : in Integer) is
 		porcentaje : float;
@@ -40,7 +40,7 @@ procedure main_samu is
 			Put (porcentaje, Aft => 2, Exp => 0);
 			Put (" %");
 			New_Line;
-	end umbral_temperatura;
+	end umbralTemperatura;
 	
 	
 	matriz : a_temperatura;
