@@ -5,4 +5,8 @@ package maqueta is
 
    function fcCalentar return Integer;
 
+   procedure pcGeneraTension (valorTension : out T_tension);
+
+   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura);
+
 end maqueta;
