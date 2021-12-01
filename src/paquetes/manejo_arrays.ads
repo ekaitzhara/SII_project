@@ -8,5 +8,6 @@ package manejo_arrays is
    
    procedure remove(lista: in out G_lista);
    
+   procedure Mostrar_Array (Lista: G_Lista);
 
 end manejo_arrays;

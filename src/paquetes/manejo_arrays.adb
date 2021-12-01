@@ -38,4 +38,12 @@ package body manejo_arrays is
   
    end remove;
    
+   procedure Mostrar_Array (Lista: G_Lista) is
+   begin
+      for I in Lista'Range loop
+         Put(Lista(I), AFT=>2, EXP=>0);
+         Put(" , ");
+         end loop;
+   end Mostrar_Array;
+   
 end manejo_arrays;
