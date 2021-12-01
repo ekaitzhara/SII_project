@@ -1,15 +1,35 @@
 with Utilidades; use Utilidades;
 with Text_IO; use Text_IO;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
+
 procedure main_enara is
-CMenu: Character;
+   CMenu: Character;
+   
+   type NArray is array (1..25) of Float;
+   
+   procedure Mostrar_Array (Lista: NArray) is
+   begin
+      for I in Lista'Range loop
+         Put(Lista(I), AFT=>2, EXP=>0);
+         Put(" , ");
+         end loop;
+   end Mostrar_Array;
+   
+   Mi_Array: NArray;
+   Elem:  Float;
 begin
   Loop
    CMenu:= Fc_Menu;
    case CMenu is 
       when '1' =>
-         Put("1");
+         for I in Mi_Array'Range loop
+            Put("Meter valor " &Integer'Image(I));
+            Get(Elem);
+            Mi_Array(I):=Elem;
+         end loop;
+         
       when '2' =>
-         Put("2");
+         Mostrar_Array(Mi_Array);
       when '3' =>
          Put("3");
       when '4' =>

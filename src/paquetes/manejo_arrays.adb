@@ -16,8 +16,7 @@ package body manejo_arrays is
             if Aux < 4 then 
                Lista(Aux+1):=Lista(Lista'Length-Aux);
             else 
-               --Lista(Aux+1):=T'Null_Parameter;
-               Lista(Aux+1):=Default;  -- cuidado, hay que arreglarlo
+               Lista(Aux+1):=Default;  -- valor por defecto asignado al instanciar el paquete generico
             end if;
            
             Aux:= Aux+1;
@@ -45,5 +44,13 @@ package body manejo_arrays is
    end get;
    
    
+   procedure Mostrar_Array is
+   begin
+      for I in Lista'Range loop
+         --  Put(Lista(I), AFT=>2, EXP=>0);  -- mirar como enseñar el array
+         Put(T'Image(lista(I)));
+         Put(" , ");
+         end loop;
+   end Mostrar_Array;
    
 end manejo_arrays;

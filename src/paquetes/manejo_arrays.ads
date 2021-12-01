@@ -18,5 +18,6 @@ package manejo_arrays is
 private
    type G_lista is array(Index) of T;
    
+   procedure Mostrar_Array (Lista: G_Lista);
 
 end manejo_arrays;

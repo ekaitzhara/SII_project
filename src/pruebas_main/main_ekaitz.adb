@@ -12,4 +12,6 @@ begin
    Put_Line(Array_Float.get(1)'Image);
    Put_Line(Float'First'Image);
    
+   Array_Float.Mostrar_Array;
+   
 end main_ekaitz;
