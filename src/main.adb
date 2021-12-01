@@ -1,5 +1,9 @@
-with Ada.Text_IO;   use Ada.Text_IO;
-with Utilidades; use Utilidades;
+with Ada.Text_IO; use Ada.Text_IO;
+
+with utilidades; use utilidades;
+with maqueta; use maqueta;
+with tipos; use tipos;
+with manejo_arrays; use manejo_arrays;
 
 
 procedure Main is
@@ -10,7 +14,7 @@ procedure Main is
    valorTension : T_tension;
    valorTemperatura : T_temperatura;
    lista : G_lista;
-   contador : Positive;
+   contador : Integer;
 
 begin
 
@@ -26,22 +30,26 @@ begin
 
       when '2' =>
          Put_Line("Opción: Mostrar temperatura actual");
+         pcGeneraTension(valorTension);
          pcGeneraTemperatura(valorTension,valorTemperatura);
 
       when '3' =>
          Put_Line("Opción: Leer temperatura y guardar en array");
+         pcGeneraTension(valorTension);
+         pcGeneraTemperatura(valorTension,valorTemperatura);
+         add(valorTemperatura);
 
       when '4' =>
          Put_Line("Opción: Mostrar temperaturas del array");
-         Mostrar_Array
+         Mostrar_Array;
 
       when '5' =>
          Put_Line("Opción: Calcular la temperatura media");
-         mediaTemperatura(T_lista, contador);
+         mediaTemperatura;
 
       when '6' =>
          Put_Line("Opción: Calcular porcentaje de temperaturas que superan un umbral");
-         umbralTemperatura(T_lista, contador);
+         umbralTemperatura;
 
       when '0' =>
          exit;
