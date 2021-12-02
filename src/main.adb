@@ -3,8 +3,8 @@ with Ada.Text_IO; use Ada.Text_IO;
 with utilidades; use utilidades;
 with maqueta; use maqueta;
 with tipos; use tipos;
-with manejo_arrays; use manejo_arrays;
 
+with manejo_array_float;  use manejo_array_float;
 
 procedure Main is
 
@@ -13,52 +13,72 @@ procedure Main is
    iConsigna : Integer;
    valorTension : T_tension;
    valorTemperatura : T_temperatura;
-   lista : G_lista;
-   contador : Integer;
+   --lista : G_lista;
+   --contador : Integer;
+   numberOfElem : Integer;
 
 begin
 
-  Loop
+  loop
       CMenu := Fc_Menu;
 
+      case CMenu is
 
-   case CMenu is
+         when '1' =>
+            Put_Line("Opción: Calentar");
+            iConsigna := fcCalentar;
 
-      when '1' =>
-         Put_Line("Opción: Calentar");
-         iConsigna := fcCalentar;
+         when '2' =>
+            Put_Line("Opción: Mostrar temperatura actual");
+            pcGeneraTension(valorTension);
+            pcGeneraTemperatura(valorTension,valorTemperatura);
 
-      when '2' =>
-         Put_Line("Opción: Mostrar temperatura actual");
-         pcGeneraTension(valorTension);
-         pcGeneraTemperatura(valorTension,valorTemperatura);
+         when '3' =>
+            Put_Line("Opción: Leer temperatura y guardar en array");
+            pcGeneraTension(valorTension);
+            pcGeneraTemperatura(valorTension,valorTemperatura);
+            Array_Float.add(valorTemperatura);
 
-      when '3' =>
-         Put_Line("Opción: Leer temperatura y guardar en array");
-         --pcGeneraTension(valorTension);
-         --pcGeneraTemperatura(valorTension,valorTemperatura);
-         add(valorTemperatura);
+         when '4' | '5' |  '6' =>
+            numberOfElem := Array_Float.getNumElements;
+            declare
+               lista : listaElementos(1..numberOfElem);
+            begin
+               getElemArray(lista,numberOfElem);
 
-      when '4' =>
-         Put_Line("Opción: Mostrar temperaturas del array");
-         Mostrar_Array;
+               case CMenu is
+                  when '4' =>
+                     Put_Line("Opción: Mostrar temperaturas del array");
+                     mostrarArray(lista);
+                  when '5' =>
+                     Put_Line("Opción: Calcular la temperatura media");
+                     mediaTemperatura(lista, numberOfElem);
+                  when '6' =>
+                     Put_Line("Opción: Calcular porcentaje de temperaturas que superan un umbral");
+                  umbralTemperatura(lista, numberOfElem);
+                  when others =>
+                     null;
+               end case;
 
-      when '5' =>
-         Put_Line("Opción: Calcular la temperatura media");
-         mediaTemperatura;
+            end;
 
-      when '6' =>
-         Put_Line("Opción: Calcular porcentaje de temperaturas que superan un umbral");
-         umbralTemperatura;
+      --  when '5' =>
+      --
+      --     mediaTemperatura;
+      --
+      --  when '6' =>
+      --
+      --     umbralTemperatura;
 
-      when '0' =>
-         exit;
+         when '0' =>
+            exit;
 
-      when others =>
-         null;
+         when others =>
+            null;
 
-   end case;
+      end case;
 
+      New_Line;
   end loop;
 
 end Main;

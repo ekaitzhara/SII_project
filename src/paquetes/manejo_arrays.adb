@@ -1,6 +1,5 @@
 with Ada.Text_IO;  use Ada.Text_IO;
 with Ada.Integer_Text_IO;   use Ada.Integer_Text_IO;
-with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 
 package body manejo_arrays is
    
@@ -31,65 +30,14 @@ package body manejo_arrays is
    end add;
    
    
-   procedure remove is
+   function getNumElements return Integer is
    begin
-      if (cont > 0) then
-         cont := cont - 1;
-      end if;
-  
-   end remove;
+      return cont;
+   end getNumElements;
    
    function get(pos: Positive) return T is
    begin
       return lista(pos);
    end get;
-   
-   
-   procedure Mostrar_Array is
-      f : Float;
-   begin
-      
-      for I in Lista'Range loop
-         --f := Float'Value(lista(I));
-         --  Put(Lista(I), AFT=>2, EXP=>0);  -- mirar como enseñar el array
-         Put(image(lista(I)));
-         Put(" , ");
-         end loop;
-	end Mostrar_Array;
-	
-	procedure mediaTemperatura is
-		suma : Float:=0.0;
-		media:Float:=0.0;
-	begin
-		
-		for i in 1 .. cont loop
-			suma := suma + lista (i);
-			
-		end loop;
-		media := suma / Float(cont-1);
-		Put ("La temperatura media es de: " );
-		Put(media, Aft => 2, Exp => 0);
-		New_Line;
-	end mediaTemperatura;
-	
-	procedure umbralTemperatura is
-		porcentaje : float;
-		cont_mayor : Integer := 0;
-		umbral:Float:=0.0;
-	begin
-		Put ("Dame un umbral: ");
-	Get (umbral);
-	New_Line;
-		for i in 1 .. cont loop
-			if lista (i) > umbral then
-				cont_mayor := cont_mayor + 1;
-				end if;
-		end loop;
-			porcentaje :=(Float(cont_mayor) / Float(cont-1)) * 100.0;
-			Put ("El porcentaje de temperaturas que supera al umbral es : ");
-			Put (porcentaje, Aft => 2, Exp => 0);
-			Put (" %");
-			New_Line;
-	end umbralTemperatura;
    
 end manejo_arrays;
