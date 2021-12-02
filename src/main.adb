@@ -35,8 +35,8 @@ begin
 
       when '3' =>
          Put_Line("Opción: Leer temperatura y guardar en array");
-         pcGeneraTension(valorTension);
-         pcGeneraTemperatura(valorTension,valorTemperatura);
+         --pcGeneraTension(valorTension);
+         --pcGeneraTemperatura(valorTension,valorTemperatura);
          add(valorTemperatura);
 
       when '4' =>
