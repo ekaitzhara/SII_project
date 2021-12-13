@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
-<Locations >
+<Locations>
   <Project>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
@@ -17,19 +14,19 @@
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 27" >
+    <file_marker column=" 1" line=" 72" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 11" line=" 11" >
+    <file_marker column=" 6" line=" 56" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 17" >
+    <file_marker column=" 4" line=" 62" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 11" line=" 11" >
+    <file_marker column=" 6" line=" 56" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
@@ -53,7 +50,7 @@
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 20" line=" 15" >
+    <file_marker column=" 15" line=" 60" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
@@ -77,7 +74,7 @@
       <vfs_project />
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
     </file_marker>
-    <file_marker column=" 6" line=" 13" >
+    <file_marker column=" 6" line=" 58" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
@@ -85,7 +82,7 @@
       <vfs_project />
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 18" >
+    <file_marker column=" 4" line=" 63" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
@@ -97,7 +94,7 @@
       <vfs_project />
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
     </file_marker>
-    <file_marker column=" 22" line=" 9" >
+    <file_marker column=" 17" line=" 54" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
@@ -105,302 +102,85 @@
       <vfs_project />
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 25" line=" 3" >
+    <file_marker column=" 25" line=" 3" >
       <vfs_project />
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
-=======
-<<<<<<< HEAD
->>>>>>> 21880019b6387dff1a94d8995f7781f9611c8cd2
-    <vfs_file />
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 25" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 16" line=" 22" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Downloads\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 9" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_enara.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 25" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_enara.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 19" line=" 14" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_enara.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\utilidades.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 18" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 68" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 18" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 18" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 86" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Downloads\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 86" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Downloads\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 13" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 3" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_file>
-    </file_marker>
-    <file_marker column=" 3" line=" 10" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 9" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\manejo_arrays.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\tipos.adb</vfs_file>
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\utilidades.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\tipos.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 24" line=" 9" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\utilidades.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\tipos.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 39" line=" 15" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.ads</vfs_file>
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\paquetes\maqueta.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\utilidades.ads</vfs_file>
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\ficheros.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 5" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.ads</vfs_file>
+    <file_marker column=" 4" line=" 45" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\utilidades.ads</vfs_file>
-<<<<<<< HEAD
+    <file_marker column=" 60" line=" 10" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 20" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
+    <file_marker column=" 25" line=" 11" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
+    <file_marker column=" 18" line=" 78" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 6" line=" 19" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
+    <file_marker column=" 37" line=" 19" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\tipos.adb</vfs_file>
+    <file_marker column=" 15" line=" 78" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\tipos.ads</vfs_file>
+    <file_marker column=" 25" line=" 23" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 3" line=" 10" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
+    <file_marker column=" 31" line=" 21" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
+    <file_marker column=" 43" line=" 20" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.ads</vfs_file>
+    <file_marker column=" 22" line=" 48" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 3" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
+    <file_marker column=" 1" line=" 49" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\tipos.adb</vfs_file>
+    <file_marker column=" 10" line=" 91" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\tipos.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 41" line=" 48" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Downloads\p04_ejer8.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 41" line=" 48" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project />
-      <vfs_file>C:\Users\usuario\Downloads\p04_ejer9.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 20" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 50" line=" 17" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 20" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_jonan.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 15" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 3" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 43" line=" 49" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 32" line=" 3" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\tipos.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 13" line=" 55" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\maqueta.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\manejo_arrays.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 40" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\manejo_arrays.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 23" line=" 40" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\paquetes\manejo_arrays.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 27" line=" 44" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\sii_proyecto.gpr</vfs_project>
-      <vfs_file>C:\Users\usuario\Desktop\Master INCAR\Sistemas Informaticos Industriales\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
-=======
->>>>>>> fc6c45b3f612a7dc91f360a351d8ae2eeb89f7d8
->>>>>>> 97903007abe865d0c6ccae24f5207ddd8b2c64e2
->>>>>>> 19b4936189fe7c2d7e7b651edb984f5c05f2b9c0
->>>>>>> 21880019b6387dff1a94d8995f7781f9611c8cd2
+    <file_marker current="true" column=" 9" line=" 37" >
+      <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
+      <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
