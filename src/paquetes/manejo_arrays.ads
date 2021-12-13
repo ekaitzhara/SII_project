@@ -5,24 +5,15 @@ generic
 
 package manejo_arrays is
    
-   SubType Index is Positive range 1..Size;
-  
-   --type G_Lista is array (Natural range <>) of T;   
+   subType Index is Positive range 1..Size;
    
    procedure add(elem: T);
    
-   procedure remove;
+   function getNumElements return Integer;
    
    function get(pos: Positive) return T;
    
-	procedure Mostrar_Array;
-	
-	procedure mediaTemperatura;
-	
-	procedure umbralTemperatura;
-   
 private
    type G_lista is array(Index) of T;
-    
 
 end manejo_arrays;

@@ -5,7 +5,8 @@ package body utilidades is
       CEleccion: Character;
 
    begin
-      Loop
+      loop
+         New_Line;
          Put_Line("----------- MENU OPCIONES -----------");
          Put_Line("1: Calentar");
          Put_Line("2: Mostrar temperatura actual");
@@ -20,6 +21,7 @@ package body utilidades is
          exit when CEleccion in '0'..'6'; -- Se preguntara la opcion deseada hasta que se introduzca un valor valido
          Put_Line("Elija una de las opciones indicadas");
       end loop;
+      New_Line;
 
       return CEleccion;
    end Fc_Menu;
