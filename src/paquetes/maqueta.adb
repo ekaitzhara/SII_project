@@ -51,5 +51,22 @@ package body maqueta is
       
    end pcGeneraTemperatura;
    
+   procedure termometro(temperatura: T_temperatura) is
+      valor : Integer := Integer(temperatura);
+   begin
+      New_Line;
+      Put_Line("------------------------------------------------------------");
+      Put_Line("0 - 5 - 10 - 15 - 20 - 25 - 30 - 35 - 40 - 45 - 50 - 55 - 60");
+      Put_Line("------------------------------------------------------------");
+      
+      for i in 1..valor loop
+         
+         Put("|");
+      end loop;
+      New_Line;
+      
+      
+   end termometro;
+   
 
 end maqueta;

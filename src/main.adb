@@ -20,6 +20,7 @@ procedure Main is
 
 begin
 
+
   loop
       CMenu := Fc_Menu;
 
@@ -36,6 +37,9 @@ begin
             Put("La temperatura actual es: ");
             Put(Float(valorTemperatura), Aft=>2, Exp=>0);
             Put(" grados");
+
+            termometro(valorTemperatura);
+
 
          when '3' =>
             Put_Line("Opción: Leer temperatura y guardar en array");
