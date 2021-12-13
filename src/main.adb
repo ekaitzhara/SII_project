@@ -50,7 +50,7 @@ begin
             Put(Float(valorTemperatura), Aft=>2, Exp=>0);
             Put(" grados");
 
-         when '4' | '5' |  '6' =>
+         when '4' | '5' |  '6' | '7' =>
             numberOfElem := Array_Float.getNumElements;
             declare
                lista : listaElementos(1..numberOfElem);
@@ -66,7 +66,10 @@ begin
                      mediaTemperatura(lista, numberOfElem);
                   when '6' =>
                      Put_Line("Opción: Calcular porcentaje de temperaturas que superan un umbral");
-                  umbralTemperatura(lista, numberOfElem);
+                     umbralTemperatura(lista, numberOfElem);
+                  when '7' =>
+                     Put_Line("Opción: Calcular máxima temperatura registrada");
+                     maximaTemperatura(lista, numberOfElem);
                   when others =>
                      null;
                end case;
