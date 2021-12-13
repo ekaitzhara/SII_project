@@ -45,9 +45,9 @@ package body maqueta is
       
       valorTemperatura := T_temperatura(20.0*valorTension);
       
-      Put("La temperatura actual es: ");
-      Put(valorTemperatura, Aft=>2, Exp=>0);
-      Put(" grados");
+      --Put("La temperatura actual es: ");
+      --Put(valorTemperatura, Aft=>2, Exp=>0);
+      --Put(" grados");
       
    end pcGeneraTemperatura;
    

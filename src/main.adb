@@ -1,4 +1,5 @@
 with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 
 with utilidades; use utilidades;
 with maqueta; use maqueta;
@@ -32,12 +33,18 @@ begin
             Put_Line("Opción: Mostrar temperatura actual");
             pcGeneraTension(valorTension);
             pcGeneraTemperatura(valorTension,valorTemperatura);
+            Put("La temperatura actual es: ");
+            Put(Float(valorTemperatura), Aft=>2, Exp=>0);
+            Put(" grados");
 
          when '3' =>
             Put_Line("Opción: Leer temperatura y guardar en array");
             pcGeneraTension(valorTension);
             pcGeneraTemperatura(valorTension,valorTemperatura);
             Array_Float.add(valorTemperatura);
+            Put("Valor leído y guardado: ");
+            Put(Float(valorTemperatura), Aft=>2, Exp=>0);
+            Put(" grados");
 
          when '4' | '5' |  '6' =>
             numberOfElem := Array_Float.getNumElements;
