@@ -50,7 +50,7 @@ begin
             Put(Float(valorTemperatura), Aft=>2, Exp=>0);
             Put(" grados");
 
-         when '4' | '5' |  '6' | '7' =>
+         when '4' | '5' |  '6' | '7' | '8' =>
             numberOfElem := Array_Float.getNumElements;
             declare
                lista : listaElementos(1..numberOfElem);
@@ -70,6 +70,9 @@ begin
                   when '7' =>
                      Put_Line("Opción: Calcular máxima temperatura registrada");
                      maximaTemperatura(lista, numberOfElem);
+                  when '8' =>
+                     Put_Line("Opción: Calcular mínima temperatura registrada");
+                     minimaTemperatura(lista, numberOfElem);
                   when others =>
                      null;
                end case;

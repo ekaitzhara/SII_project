@@ -12,5 +12,7 @@ package manejo_array_float is
    
    procedure maximaTemperatura(lista: listaElementos; cont: Integer);
    
+   procedure minimaTemperatura(lista: listaElementos; cont: Integer);
+   
 
 end manejo_array_float;

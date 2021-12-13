@@ -79,6 +79,22 @@ package body manejo_array_float is
       
    end maximaTemperatura;
    
+   procedure minimaTemperatura(lista: listaElementos; cont: Integer) is
+      min : Float := Float'Last;
+   begin
+      for i in 1 .. cont loop
+         if Float(lista (i)) < min then
+            min := Float(lista(i));
+         end if;
+      end loop;
+      
+      New_Line;
+      Put ("La temperatura mínima es : ");
+      Put (min, Aft => 2, Exp => 0);
+      New_Line;
+   
+   end minimaTemperatura;
+   
    
 
 end manejo_array_float;
