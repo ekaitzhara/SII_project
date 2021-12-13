@@ -62,6 +62,7 @@ begin
 
             end;
 
+
       --  when '5' =>
       --
       --     mediaTemperatura;

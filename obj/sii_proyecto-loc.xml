@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<<<<<<< HEAD
 <Locations>
   <Project>
     <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_file>
@@ -181,6 +182,74 @@
     <file_marker current="true" column=" 4" line=" 37" >
       <vfs_project>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\sii_proyecto.gpr</vfs_project>
       <vfs_file>D:\Documentos\15. Master Bilbao\00. Universidad\ADA\SII_project\src\pruebas_main\main_samu.adb</vfs_file>
+=======
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 26" line=" 43" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 47" line=" 28" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\pruebas_main\main_ekaitz.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\maqueta.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 28" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_array_float.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 9" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_array_float.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 66" line=" 11" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\tipos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 6" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\utilidades.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_array_float.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_array_float.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_array_float.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_array_float.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_arrays.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\manejo_array_float.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\prueba.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 3" >
+      <vfs_project>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\sii_proyecto.gpr</vfs_project>
+      <vfs_file>C:\Users\ekait\Documents\INCAR\SII\Proyecto\SII_Proyecto\src\paquetes\prueba.ads</vfs_file>
+>>>>>>> 886e2c7505e7461d37ed5cfcc4b48a57aeef861f
     </file_marker>
   </Project>
 </Locations>
