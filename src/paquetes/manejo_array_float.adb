@@ -61,7 +61,40 @@ package body manejo_array_float is
       Put (porcentaje, Aft => 2, Exp => 0);
       Put (" %");
       New_Line;
-	end umbralTemperatura;
+   end umbralTemperatura;
+   
+   procedure maximaTemperatura(lista: listaElementos; cont: Integer) is
+      max : Float := Float'First;
+   begin
+      for i in 1 .. cont loop
+         if Float(lista (i)) > max then
+            max := Float(lista(i));
+         end if;
+      end loop;
+      
+      New_Line;
+      Put ("La temperatura máxima es : ");
+      Put (max, Aft => 2, Exp => 0);
+      New_Line;
+      
+   end maximaTemperatura;
+   
+   procedure minimaTemperatura(lista: listaElementos; cont: Integer) is
+      min : Float := Float'Last;
+   begin
+      for i in 1 .. cont loop
+         if Float(lista (i)) < min then
+            min := Float(lista(i));
+         end if;
+      end loop;
+      
+      New_Line;
+      Put ("La temperatura mínima es : ");
+      Put (min, Aft => 2, Exp => 0);
+      New_Line;
+   
+   end minimaTemperatura;
+   
    
 
 end manejo_array_float;

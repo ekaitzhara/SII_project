@@ -1,4 +1,5 @@
 with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Float_Text_IO; use Ada.Float_Text_IO;
 
 with utilidades; use utilidades;
 with maqueta; use maqueta;
@@ -19,6 +20,7 @@ procedure Main is
 
 begin
 
+
   loop
       CMenu := Fc_Menu;
 
@@ -32,14 +34,23 @@ begin
             Put_Line("Opción: Mostrar temperatura actual");
             pcGeneraTension(valorTension);
             pcGeneraTemperatura(valorTension,valorTemperatura);
+            Put("La temperatura actual es: ");
+            Put(Float(valorTemperatura), Aft=>2, Exp=>0);
+            Put(" grados");
+
+            termometro(valorTemperatura);
+
 
          when '3' =>
             Put_Line("Opción: Leer temperatura y guardar en array");
             pcGeneraTension(valorTension);
             pcGeneraTemperatura(valorTension,valorTemperatura);
             Array_Float.add(valorTemperatura);
+            Put("Valor leído y guardado: ");
+            Put(Float(valorTemperatura), Aft=>2, Exp=>0);
+            Put(" grados");
 
-         when '4' | '5' |  '6' =>
+         when '4' | '5' |  '6' | '7' | '8' =>
             numberOfElem := Array_Float.getNumElements;
             declare
                lista : listaElementos(1..numberOfElem);
@@ -55,7 +66,13 @@ begin
                      mediaTemperatura(lista, numberOfElem);
                   when '6' =>
                      Put_Line("Opción: Calcular porcentaje de temperaturas que superan un umbral");
-                  umbralTemperatura(lista, numberOfElem);
+                     umbralTemperatura(lista, numberOfElem);
+                  when '7' =>
+                     Put_Line("Opción: Calcular máxima temperatura registrada");
+                     maximaTemperatura(lista, numberOfElem);
+                  when '8' =>
+                     Put_Line("Opción: Calcular mínima temperatura registrada");
+                     minimaTemperatura(lista, numberOfElem);
                   when others =>
                      null;
                end case;

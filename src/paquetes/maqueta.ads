@@ -19,4 +19,6 @@ package maqueta is
 
    procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura);
 
+   procedure termometro(temperatura: T_temperatura);
+
 end maqueta;
