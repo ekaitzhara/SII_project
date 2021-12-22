@@ -1,7 +1,7 @@
 package body maqueta is
    
    
-   function  fcCalentar return Integer is
+   function  fcCalentar return Integer is 
 
       iConsigna : Integer;
 
@@ -21,7 +21,7 @@ package body maqueta is
    end fcCalentar;
    
 
-   procedure pcGeneraTension (valorTension : out T_tension) is
+   procedure pcGeneraTension (valorTension : out T_tension) is 
 
       G_tension : Ada.Numerics.Float_Random.Generator;
       valorTension_aux : Float;
@@ -34,24 +34,18 @@ package body maqueta is
 
       valorTension := 5.00 * T_tension(valorTension_aux);
 
-      --Put_Line("El valor de tensión generado es: " & T_tension'Image(valorTension));
-
    end pcGeneraTension;
    
    
-   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura) is
+   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura) is 
       
    begin
       
       valorTemperatura := T_temperatura(20.0*valorTension);
       
-      --Put("La temperatura actual es: ");
-      --Put(valorTemperatura, Aft=>2, Exp=>0);
-      --Put(" grados");
-      
    end pcGeneraTemperatura;
    
-   procedure termometro(temperatura: T_temperatura) is
+   procedure termometro(temperatura: T_temperatura) is 
       valor : Integer := Integer(temperatura);
    begin
       New_Line;
@@ -64,8 +58,6 @@ package body maqueta is
          Put("|");
       end loop;
       New_Line;
-      
-      
    end termometro;
    
 

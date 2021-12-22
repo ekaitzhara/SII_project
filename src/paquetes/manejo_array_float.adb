@@ -1,12 +1,12 @@
 with Ada.Text_IO;   use Ada.Text_IO;
 with Ada.Integer_Text_IO;   use Ada.Integer_Text_IO;
 with Ada.Float_Text_IO; use Ada.Float_Text_IO;
-with Ada.Calendar; use Ada.Calendar;
-with Ada.Calendar.Formatting; use Ada.Calendar.Formatting;
 
 package body manejo_array_float is
    
-   procedure getElemArray(lista:in out listaElementos; numberOfElem: in Integer) is
+   
+   
+   procedure getElemArray(lista:in out listaElementos; numberOfElem: in Integer) is 
    begin
       for i in 1..numberOfElem loop
          lista(i) := Array_Float.get(i);
@@ -94,8 +94,8 @@ package body manejo_array_float is
       New_Line;
    
    end minimaTemperatura;
-	
-	procedure addFichero (lista : listaElementos; cont : Integer) is
+   
+   procedure addFichero (lista : listaElementos; cont : Integer) is
 		
 		ahora : Time; --Declaración variable guardado de fecha y hora
 	
@@ -137,5 +137,5 @@ package body manejo_array_float is
 		Close (fichero1);
 		
 	end addFichero;
-  
+
 end manejo_array_float;
