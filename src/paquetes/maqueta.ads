@@ -1,43 +1,22 @@
-with Ada.Text_IO;  use Ada.Text_IO;
-with Ada.Integer_Text_IO;   use Ada.Integer_Text_IO;
+with Ada.Text_IO; use Ada.Text_IO;
+with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
+with Ada.Numerics.Float_Random;
+with tipos;   use tipos;
 
-package body manejo_arrays is
+package maqueta is
 
+   function fcCalentar return Integer; --Funcion que pide al usuario el valor de consigna en W
 
-   cont: Integer := 0;
-   lista: G_lista;
+   procedure pcGeneraTension (valorTension : out T_tension); --Procedure que genera tension aleatoria para las simulaciones
 
-   procedure add(elem: T) is
-   Aux: Integer:=0;
-   begin
-      if (cont = lista'Length) then
-         Cont:=5;
-         for I in Lista'Range loop
-            if Aux < 4 then
-               Lista(Aux+1):=Lista(Lista'Length-Aux);
-            else
-               Lista(Aux+1):=Default;  -- valor por defecto asignado al instanciar el paquete generico
-            end if;
+   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura); --Procedure para convertir el valor de tension en temperatura
 
-            Aux:= Aux+1;
-         end loop;
-         Lista(Cont):=Elem;
-      else
-         cont := cont + 1;
-         lista(cont) := elem;
-      end if;
+   procedure termometro(temperatura: T_temperatura); --Procedure para crear un termometro digital
 
-   end add;
+   package paqueteTension is new Ada.Text_IO.Float_IO(T_tension); --Crear paquete de tipo T_Tension
+   use paqueteTension;
 
+   package paqueteTemperatura is new Ada.Text_IO.Float_IO(T_temperatura); --Crear paquete de tipo T_temperatura
+   use paqueteTemperatura;
 
-   function getNumElements return Integer is
-   begin
-      return cont;
-   end getNumElements;
-
-   function get(pos: Positive) return T is
-   begin
-      return lista(pos);
-   end get;
-
-end manejo_arrays;
+end maqueta;

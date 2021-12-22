@@ -1,43 +1,64 @@
-with Ada.Text_IO;  use Ada.Text_IO;
-with Ada.Integer_Text_IO;   use Ada.Integer_Text_IO;
+package body maqueta is
+   
+   
+   function  fcCalentar return Integer is 
 
-package body manejo_arrays is
+      iConsigna : Integer;
+
+   begin
+
+      loop
+         New_line ;
+         Put ("Introduzca los watios de consigna (50..350): ") ;
+         Get (iConsigna);
+
+         exit when iConsigna in 50..350;
+            Put_Line ("Introduzca un valor entre 50  y 350");
+      end loop;
+
+      return iConsigna;
+
+   end fcCalentar;
+   
+
+   procedure pcGeneraTension (valorTension : out T_tension) is 
+
+      G_tension : Ada.Numerics.Float_Random.Generator;
+      valorTension_aux : Float;
+
+   begin
+
+      Ada.Numerics.Float_Random.Reset(G_tension);      
+
+      valorTension_aux := Ada.Numerics.Float_Random.Random(G_tension);
+
+      valorTension := 5.00 * T_tension(valorTension_aux);
+
+   end pcGeneraTension;
    
    
-   cont: Integer := 0;
-   lista: G_lista;
-  
-   procedure add(elem: T) is
-   Aux: Integer:=0;
-   begin 
-      if (cont = lista'Length) then
-         Cont:=5;
-         for I in Lista'Range loop
-            if Aux < 4 then 
-               Lista(Aux+1):=Lista(Lista'Length-Aux);
-            else 
-               Lista(Aux+1):=Default;  -- valor por defecto asignado al instanciar el paquete generico
-            end if;
-           
-            Aux:= Aux+1;
-         end loop;
-         Lista(Cont):=Elem;
-      else
-         cont := cont + 1;
-         lista(cont) := elem;
-      end if;
+   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura) is 
       
-   end add;
-   
-   
-   function getNumElements return Integer is
    begin
-      return cont;
-   end getNumElements;
+      
+      valorTemperatura := T_temperatura(20.0*valorTension);
+      
+   end pcGeneraTemperatura;
    
-   function get(pos: Positive) return T is
+   procedure termometro(temperatura: T_temperatura) is 
+      valor : Integer := Integer(temperatura);
    begin
-      return lista(pos);
-   end get;
+      New_Line;
+      Put_Line("------------------------------------------------------------");
+      Put_Line("0 - 5 - 10 - 15 - 20 - 25 - 30 - 35 - 40 - 45 - 50 - 55 - 60");
+      Put_Line("------------------------------------------------------------");
+      
+      for i in 1..valor loop
+         
+         Put("|");
+      end loop;
+      New_Line;
+   end termometro;
    
-end manejo_arrays;
+
+end maqueta;
