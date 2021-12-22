@@ -1,24 +1,43 @@
-with Ada.Text_IO; use Ada.Text_IO;
-with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
-with Ada.Numerics.Float_Random;
-with tipos;   use tipos;
+with Ada.Text_IO;  use Ada.Text_IO;
+with Ada.Integer_Text_IO;   use Ada.Integer_Text_IO;
 
-package maqueta is
+package body manejo_arrays is
 
-   --type T_tension is new Float range 0.0..5.0; -- definido en tipos
-   package paqueteTension is new Ada.Text_IO.Float_IO(T_tension);
-   use paqueteTension;
 
-   --type T_temperatura is new Float range 0.0..100.0;
-   package paqueteTemperatura is new Ada.Text_IO.Float_IO(T_temperatura);
-   use paqueteTemperatura;
+   cont: Integer := 0;
+   lista: G_lista;
 
-   function fcCalentar return Integer;
+   procedure add(elem: T) is
+   Aux: Integer:=0;
+   begin
+      if (cont = lista'Length) then
+         Cont:=5;
+         for I in Lista'Range loop
+            if Aux < 4 then
+               Lista(Aux+1):=Lista(Lista'Length-Aux);
+            else
+               Lista(Aux+1):=Default;  -- valor por defecto asignado al instanciar el paquete generico
+            end if;
 
-   procedure pcGeneraTension (valorTension : out T_tension);
+            Aux:= Aux+1;
+         end loop;
+         Lista(Cont):=Elem;
+      else
+         cont := cont + 1;
+         lista(cont) := elem;
+      end if;
 
-   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura);
+   end add;
 
-   procedure termometro(temperatura: T_temperatura);
 
-end maqueta;
+   function getNumElements return Integer is
+   begin
+      return cont;
+   end getNumElements;
+
+   function get(pos: Positive) return T is
+   begin
+      return lista(pos);
+   end get;
+
+end manejo_arrays;
