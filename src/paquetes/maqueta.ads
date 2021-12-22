@@ -5,18 +5,24 @@ with tipos;   use tipos;
 
 package maqueta is
 
-   function fcCalentar return Integer; --Funcion que pide al usuario el valor de consigna en W
+   function fcCalentar return Integer;
+   --Funcion que pide al usuario el valor de consigna en W
 
-   procedure pcGeneraTension (valorTension : out T_tension); --Procedure que genera tension aleatoria para las simulaciones
+   procedure pcGeneraTension (valorTension : out T_tension);
+   --Procedure que genera tension aleatoria para las simulaciones
 
-   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura); --Procedure para convertir el valor de tension en temperatura
+   procedure pcGeneraTemperatura (valorTension : in T_tension; valorTemperatura : out T_temperatura);
+   --Procedure para convertir el valor de tension en temperatura
 
-   procedure termometro(temperatura: T_temperatura); --Procedure para crear un termometro digital
+   procedure termometro(temperatura: T_temperatura);
+   --Procedure para crear un termometro digital
 
-   package paqueteTension is new Ada.Text_IO.Float_IO(T_tension); --Crear paquete de tipo T_Tension
+   package paqueteTension is new Ada.Text_IO.Float_IO(T_tension);
+   --Crear paquete de tipo T_Tension
    use paqueteTension;
 
-   package paqueteTemperatura is new Ada.Text_IO.Float_IO(T_temperatura); --Crear paquete de tipo T_temperatura
+   package paqueteTemperatura is new Ada.Text_IO.Float_IO(T_temperatura);
+   --Crear paquete de tipo T_temperatura
    use paqueteTemperatura;
 
 end maqueta;
